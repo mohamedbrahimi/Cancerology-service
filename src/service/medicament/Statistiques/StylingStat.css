@@ -1,0 +1,114 @@
+.chart .label {
+    -fx-font-size     : 15pt;
+    -fx-font-family   : "Georgia";
+    -fx-text-fill     : black;
+}
+
+
+
+.data0.chart-pie { -fx-pie-color: orange; }
+.data1.chart-pie { -fx-pie-color: tomato; }
+.data1.chart-pie:hover {
+     
+}
+.data2.chart-pie { -fx-pie-color: greenyellow; }
+.data3.chart-pie { -fx-pie-color: blue; }
+
+
+/* Pie Chart legend background color and stroke. */
+.chart-legend { 
+    -fx-background-color  : #f0e68c; 
+    -fx-strock            : #696969;       
+}
+
+
+/*****/
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Courier New";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size  : 11pt;
+    -fx-font-family: "Courier New";
+    -fx-text-fill  : white;
+    -fx-opacity    : 0.95;
+    -fx-padding    : 2px;  
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+.table-row-cell{
+    -fx-font-size: 15pt;
+    -fx-font-family: "Courier New";
+    -fx-text-fill: white;
+}
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 20pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
+    -fx-background-color: transparent, derive(#1d1d1d,20%);
+}
+
+.split-pane {
+    -fx-padding: 1 0 0 0;
+}
+
+#StatLabel{
+     -fx-font-size   : 32pt;
+     -fx-font-family  : "Segoe UI Light";
+     -fx-text-fill    : white;
+     -fx-opacity      : 1;  
+}
+
+#DecesBar .data0.chart-bar {
+    -fx-background-color : greenYellow;
+}
+
+/****/
+

@@ -1,0 +1,359 @@
+
+.styleButton { -fx-font: 16 arial;
+               -fx-base: #fffff;
+               -fx-alignment:CENTER_LEFT;
+               -fx-background-color: black;
+               -fx-text-fill: white;
+               -fx-border-radius: 5;
+}
+.styleButton:hover{
+               -fx-background-color: gray;
+}
+.styleLabel   { -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: gray;
+                -fx-text-fill: white;
+                -fx-border-radius: 5;
+                
+                 
+}
+
+.setyleLabelPatieName {
+                -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: tomato;
+                -fx-text-fill: white;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+    
+}
+
+.setStyleParteBilan {
+    -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: greenyellow;
+                -fx-text-fill: white;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+    
+}
+.setStylesousParteBilan{
+                -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: rosybrown;
+                -fx-text-fill: white;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+                
+}
+
+.setStyleCirconsanceDic {
+               
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: orange;
+                -fx-text-fill: white;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+                
+    
+}
+.setStyleClassification {
+                -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: indianred;
+                -fx-text-fill: black;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+    
+}
+
+.setstyleTraitementPabs{
+    -fx-font: 16 arial;
+                -fx-base: #fffff;
+                -fx-alignment:CENTER_LEFT;
+                -fx-background-color: lime;
+                -fx-text-fill: green;
+                -fx-border-radius: 5;
+                -fx-background-radius: 20;
+    
+}
+.setsttyleTraitementPpartie {
+    
+                -fx-font              : 16 arial;
+                -fx-base              : rgb(255,255,255);
+                -fx-alignment         : CENTER_LEFT;
+                -fx-background-color  : black;
+                -fx-font-family       : "Georgia";
+                -fx-text-fill         : rgb(255,81,81);
+                -fx-border-radius     : 5;
+                -fx-background-radius : 20;
+                
+    
+}
+.setStylingRoot {
+                -fx-font-size    : 10pt;
+                -fx-font-family  : "Georgia";
+                -fx-base         : rgb(130, 151, 253);
+                -fx-background   : rgb(225, 228, 203);
+                
+}
+.setStylingRootCons {
+                -fx-font-size        : 12pt;
+                -fx-font-family      : "Courier New";
+                -fx-base             : rgb(130, 151, 253);
+                -fx-background       : rgb(225, 228, 203);
+                -fx-font-style       : italic;
+                -fx-font-weight      : bold;
+                -fx-border-color     : black;
+                -fx-background-color : radial-gradient(radius 100%, derive(-fx-base,20%), derive(-fx-base,-20%));
+                
+}
+.setStylingRootCons:hover{
+    color : #00AA00;
+    //-fx-font-size: 14pt;
+    -fx-background-color: white;
+}
+.erreurchamp {
+                -fx-font       :  16arial;
+                -fx-base       : #fffff;
+                -fx-font-family: "Courier New";
+                -fx-alignment  :CENTER_LEFT;
+                -fx-background-color: rgb(130, 151, 253);
+                -fx-text-fill       : red;
+                -fx-border-radius   : -5;
+                -fx-background-radius: 20;
+                
+}
+
+.labelCons{
+  -fx-font                : 30px Tahoma;
+  -fx-stroke              : black;
+  -fx-stroke-width        : 1;
+  -fx-font-smoothing-type : lcd;
+  -fx-font-family         : "Georgia";
+  -fx-border-top          :  2px solid rgb(244,179,196); 
+  -fx-orientation         :  vertical;       
+}
+.labelCons:hover{
+  -fx-font-weight  : bold;  
+}
+.labelAutre{
+   -fx-font                : 40px Tahoma;
+  -fx-stroke              : black;
+  -fx-stroke-width        : 1;
+  -fx-font-smoothing-type : lcd;
+  -fx-font-family         : "Georgia";
+  -fx-border-top          :  2px solid rgb(244,179,196); 
+}
+
+
+.LineCree{
+  /* -fx-font-size    : 20pt;
+   -fx-text-fill    : black;
+   -fx-font-family  : "Georgia";*/
+  -fx-font                : 40px red;
+  -fx-stroke              : black;
+  -fx-stroke-width        : 1;
+  -fx-font-smoothing-type : lcd;
+  -fx-font-family         : "Georgia";
+  -fx-border-top          :  2px solid rgb(244,179,196); 
+  -fx-text-fill           :  rgb(198,99,0);
+  
+}
+
+.LineCree:hover{
+  -fx-background-color    :rgb(244,179,196); 
+}
+.Style2{
+  -fx-fill                : linear-gradient(from 0% 0% to 100% 200%, no-repeat, aqua 0%, red 50%); 
+  -fx-border-color        : transparent -fx-base transparent -fx-base;
+  -fx-background-color    : transparent, derive(-fx-base,90%);
+  -fx-background-insets   : 0, 0 1 0 1;
+  -fx-font-style   : italic;  
+  -fx-font-family  : "Courier New";
+}
+
+.treeStyle {
+-fx-base                     : rgb(50, 50, 50);
+-fx-background               : rgb(50, 50, 50);
+-fx-control-inner-background : rgb(50, 50, 50); 
+-fx-font-size                : 10pt;
+-fx-font-family              : "Georgia";
+}
+
+
+.vbCons {
+                -fx-font-size        : 12pt;
+                -fx-font-family      : "Courier New";
+                -fx-base             : rgb(130, 151, 253);
+                -fx-background       : rgb(225, 228, 203);
+                -fx-font-style       : italic;
+                -fx-font-weight      : bold;
+                -fx-border-color     : black;
+               // -fx-background-color : radial-gradient(radius 100%, derive(-fx-base,20%), derive(-fx-base,-20%));
+                
+                -fx-margin               : 50px 50px 50px 50px;
+                -fx-width                : 700px;
+                -fx-height               : 400px;  
+                -fx-padding              : 50px 50px 50px 50px;  
+                -fx-opacity              : 0.9;   
+}
+
+.barOutil {
+   // -fx-border-color      : black;
+   //-fx-border-width      : 1 1 1 1;
+   //-fx-background-color  : gray;
+   //-fx-background-radius : 5;
+   -fx-opacity             : 0.1;
+}
+
+.barOutil:hover{
+   // -fx-background-color   : #fffff;
+    -fx-opacity            : 1;
+}
+
+
+ 
+
+.textFielderr{
+    -fx-background-color  : #ffbbbb;
+    -fx-border-color      : #f00;
+}
+
+
+//***//
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: white;
+  -fx-text-fill: #1d1d1d;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+
+.Evolution {
+    
+                -fx-font              : 16 arial;
+                -fx-base              : rgb(255,255,255);
+                -fx-background        : white; 
+                -fx-alignment         : CENTER_LEFT;
+                -fx-background-color  : black;
+                -fx-font-family       : "Georgia";
+                -fx-text-fill         : white;
+                 
+                -fx-border-radius     : 5;
+                -fx-background-radius : 20;
+                -fx-opacity           : 0.7;    
+                
+    
+}
+.Evolution .label {
+    -fx-text-fill         : white;
+}
+.Evolution .radio {
+    -fx-text-fill         : white;
+}
+
+/****/
+/**/
+.titled-pane 
+{
+-fx-skin: "com.sun.javafx.scene.control.skin.TitledPaneSkin";    
+-fx-text-fill: -fx-text-base-color;
+}
+.titled-pane:focused 
+{
+-fx-text-fill: white;
+}
+.titled-pane > .title 
+{
+-fx-background-color: -fx-box-border, -fx-inner-border, -fx-body-color;
+-fx-background-insets: 0, 1, 2;
+-fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+-fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
+}
+
+.titled-pane:focused > .title 
+{
+-fx-color: -fx-focus-color;
+}
+
+.titled-pane > .title > .arrow-button 
+{
+-fx-background-color: null;
+-fx-background-insets: 0;
+-fx-background-radius: 0;
+-fx-padding: 0.0em 0.25em 0.0em 0.0em; /* 0 3 0 0 */
+}
+
+.titled-pane > .title > .arrow-button .arrow 
+{
+-fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+-fx-background-insets: 1 0 -1 0, 0;
+-fx-padding: 0.25em 0.3125em 0.25em 0.3125em; /* 3 3.75 3 3.75 */
+-fx-shape: "M 0 0 h 7 l -3.5 4 z";
+}
+
+.titled-pane:collapsed > .title > .arrow-button .arrow 
+{
+-fx-rotate: -90;
+}
+
+.titled-pane > *.content 
+{
+-fx-background-color:
+-fx-box-border,
+linear-gradient(to bottom, derive(-fx-color,-02%), derive(-fx-color,65%) 12%,      derive(-fx-color,23%) 88%, derive(-fx-color,50%) 99%, -fx-box-border);
+-fx-background-insets: 0, 0 1 1 1;
+-fx-padding: 0.167em;
+ }
+
+.titled-pane:focused > .title > .arrow-button .arrow 
+{
+-fx-background-color: white;
+}
+
+//shareimprove this answer
+/***/
