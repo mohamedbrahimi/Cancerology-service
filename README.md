@@ -1,4 +1,5 @@
-# javaFx_service_medicament
+# javaFx_cancerology-service
+
 
 Un système du gestion pour informatiser et améliorer le fonctionnement d'un établissment situé à l'hopital du bainam, alger. 
 élaborer pour accomplir l'année des etudes supereieur 2015. 
