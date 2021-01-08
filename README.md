@@ -1,7 +1,7 @@
 # javaFx_cancerology-service
 
 
-Un système du gestion pour informatiser et améliorer le fonctionnement d'un établissment situé à l'hopital du bainam, alger. 
+Un système degestion pour informatiser et améliorer le fonctionnement d'un établissment situé à l'hopital du bainam, alger. 
 élaborer pour accomplir l'année des etudes supereieur 2015. 
 
 A management system to computerize and improve the operation of an establishment located in the hospital of bainam, alger.
